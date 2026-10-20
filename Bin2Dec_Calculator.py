@@ -25,12 +25,16 @@ Bonus features
     User can enter a variable number of binary digits
 """
 
+# if we want variable number of binary digits, we can remove the string_length() function 
+# and just check for invalid characters in wrong_input() function.
+
+"""
 def string_length():
     if len (binary_input) > 8:
         print("Error: You can only enter up to 8 binary digits.")
         return False
     return True
-    
+"""   
 def wrong_input():
     for index, sign in enumerate(binary_input):
         if sign != "0" and sign != "1":
@@ -51,7 +55,8 @@ print("You can enter up to 8 binary digits (0's and 1's) to convert them to deci
 print("Please enter your binary number:")
 binary_input = input()
 
-# nie wypisuje tego 
-if string_length() == True and wrong_input() == True:
+# if we want if we want variable number of binary digits, we need also to remove
+# the string_length() function from the if statement below.
+if """string_length() == True""" and wrong_input() == True:
     decimal_value = calculate_decimal()
     print(f"The decimal equivalent of binary '{binary_input}' is: {decimal_value}")
