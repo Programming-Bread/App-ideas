@@ -1,4 +1,7 @@
 <Solution>
+  <Project Path="../Border-radius Previewer/Border-radius Previewer.pyproj" Type="888888a0-9f3d-457c-b088-3a5042f75d52" Id="b1b80128-2f3d-471e-b240-1c5fdf889203">
+    <Build Project="false" />
+  </Project>
   <Project Path="Bin2Dec_Calculator.pyproj" Type="888888a0-9f3d-457c-b088-3a5042f75d52" Id="040072d2-fd23-4297-a2c5-6e9bd2478327">
     <Build Project="false" />
   </Project>

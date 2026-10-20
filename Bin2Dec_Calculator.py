@@ -38,7 +38,7 @@ def wrong_input():
             return False 
     return True
 
-def calculate_decimal(binary_input):
+def calculate_decimal():
     decimal_value = 0
     length = len(binary_input)
     for index, sign in enumerate(binary_input):
@@ -53,4 +53,5 @@ binary_input = input()
 
 # nie wypisuje tego 
 if string_length() == True and wrong_input() == True:
-    print(f"The decimal equivalent of binary '{binary_input}' is: {calculate_decimal(binary_input)}")
+    decimal_value = calculate_decimal()
+    print(f"The decimal equivalent of binary '{binary_input}' is: {decimal_value}")
